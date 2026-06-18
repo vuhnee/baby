@@ -310,9 +310,7 @@ function addAmbientDecor() {
 }
 
 // COUNTER
-const startDate = new Date();
-startDate.setDate(startDate.getDate() - 200);
-startDate.setHours(startDate.getHours() - 14);
+const startDate = new Date('2025-11-30T00:00:00');
 
 function updateCounter() {
   const now = new Date();
